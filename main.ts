@@ -22,7 +22,7 @@ input.onButtonPressed(Button.AB, () => {
     running = true
     show_step = false
 
-    basic.pause(30000)
+    basic.pause(10000)
     music.playTone(Note.C, 1000)
 
     running = false
